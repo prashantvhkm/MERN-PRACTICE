@@ -7,6 +7,7 @@ import Navbar from "./component/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import Props from "./component/Props";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="abouts" element={<Abouts />} />
           <Route path="content" element={<Content />} />
         </Routes>
+        <Props name="tom" age={12} />
         <Footer />
       </BrowserRouter>
     </>
