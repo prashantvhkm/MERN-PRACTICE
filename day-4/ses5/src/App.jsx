@@ -6,16 +6,18 @@ import UseEff from "./component/UseEff";
 import Useaxios from "./component/Useaxios";
 import Use from "./component/Use";
 
-// <UseStateObject />
-//  <UseStateArray />
-//   <AllUseState />
+{
+  /* <UseEff />
+      <Useaxios />
+      <Use /> */
+}
 
 function App() {
   return (
     <>
-      <UseEff />
-      <Useaxios />
-      <Use />
+      <UseStateObject />
+      <UseStateArray />
+      <AllUseState />
     </>
   );
 }

@@ -7,6 +7,7 @@ import Service from "./components/Routes/Service";
 import Navbar from "./components/Routes/Navbar";
 import Footer from "./components/Routes/Footer";
 import Fromhanding from "./components/Routes/Fromhanding";
+import UseEffect from "./components/Routes/UseEffect";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="home" element={<Home />}></Route>
           <Route path="fromhanding" element={<Fromhanding />}></Route>
+          <Route path="useeffect" element={<UseEffect />}></Route>
           <Route path="about" element={<About />}></Route>
           <Route path="service" element={<Service />}></Route>
         </Routes>
